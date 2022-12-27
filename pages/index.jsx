@@ -17,8 +17,8 @@ export default function Home() {
       <h1>Home</h1>
       <Link href="/blog">blog</Link>
       <Link href="/product">product</Link>
-
       <button onClick={handleClick}>place Order</button>
+      <Link href="/posts">posts</Link>
     </div>
   );
 }
